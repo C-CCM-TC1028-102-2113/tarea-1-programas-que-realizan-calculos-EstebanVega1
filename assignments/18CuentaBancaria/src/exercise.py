@@ -1,4 +1,3 @@
-import math
 saldo_anterior=int(input("Cuanto fue su saldo anterior:"))
 ingresos=int(input("Cuanto son sus ingresos:"))
 egresos=int(input("Cuanto son sus egresos:"))
@@ -12,4 +11,3 @@ costo2=(porcentaje+costo)
 
 print("El saldo final de su cuenta es de:")
 print(costo2)
-
