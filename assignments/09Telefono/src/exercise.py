@@ -1,8 +1,9 @@
-def main():
-    #escribe tu código abajo de esta línea
-    #Leer los datos
-    pass
+mensajes = int(input("Introducir numero de mensajes:"))
+megas=int(input("Introducir numero de megas:"))
+minutos= int(input("Introducir numero de minutos:"))
 
+costo=0.80
+costo2= ((costo*mensajes)+(costo*megas)+(costo*minutos))
 
-if __name__ == '__main__':
-    main()
+print("El costo mensual es de:")
+print(costo2)
